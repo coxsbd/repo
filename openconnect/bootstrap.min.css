@@ -1,0 +1,12 @@
+/*!
+ * Bootswatch v4.6.2
+ * Homepage: https://bootswatch.com
+ * Copyright 2012-2022 Thomas Park
+ * Licensed under MIT
+ * Based on Bootstrap
+ *//*!
+ * Bootstrap v4.6.2 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#ee5f5b;--orange:#fd7e14;--yellow:#f89406;--green:#62c462;--teal:#20c997;--cyan:#5bc0de;--white:#fff;--gray:#7a8288;--gray-dark:#3e4147;--primary:#007bff;--secondary:#7a8288;--success:#62c462;--info:#5bc0de;--warning:#f89406;--danger:#ee5f5b;--light:#e8e8e8;--dark:#272b30;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--font-size-base:1rem;--font-weight-light:300;--font-weight-normal:400;--font-weight-bold:700;--line-height-base:1.5;--h1-font-size:2.5rem;--h2-font-size:2rem;--h3-font-size:1.75rem;--h4-font-size:1.5rem;--h5-font-size:1.25rem;--h6-font-size:1rem;--border-radius:0.25rem;--border-radius-lg:0.3rem;--border-radius-sm:0.2rem;--box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15);--box-shadow-sm:0 0.125rem 0.25rem rgba(0,0,0,0.075);--box-shadow-lg:0 1rem 2rem rgba(0,0,0,0.175);--box-shadow-inset:inset 0 1px 2px rgba(0,0,0,0.075);--btn-font-weight:400;--btn-font-size-sm:0.875rem;--btn-font-size-lg:1.25rem;--btn-border-radius:0.25rem;--btn-border-radius-lg:0.3rem;--btn-border-radius-sm:0.2rem;--nav-link-padding-y:0.5rem;--nav-link-padding-x:1rem;--nav-link-disabled-color:#6c757d;--dropdown-link-active-bg:#f8f9fa;--dropdown-link-active-color:#212529;--code-color:#e83e8c;--kbd-color:#fff;--kbd-bg:#343a40;--pre-color:#212529;--pre-bg:rgba(0,0,0,0.02);--body-bg:#fff;--body-color:#212529;--link-color:#007bff;--link-hover-color:#0056b3;--component-active-bg:#007bff;--component-active-color:#fff;--caret-width:0.3em;--caret-vertical-align:middle;--table-striped-bg:rgba(0,0,0,0.05);--table-striped-color:inherit;--table-hover-bg:rgba(0,0,0,0.075);--table-hover-color:inherit}

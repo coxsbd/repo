@@ -1,0 +1,23 @@
+#!/bin/bash
+# Load your database credentials
+. /etc/openvpn/login/config.sh
+
+# OpenVPN passes credentials via a temporary file ($1) or Env variables
+if [ -f "$1" ]; then
+    username=$(head -1 "$1")
+    password=$(tail -1 "$1")
+fi
+
+# We add --skip-ssl to the mysql command for Debian 13 compatibility
+Query="SELECT user_name FROM users WHERE user_name='$username' AND auth_vpn=md5('$password') AND is_freeze='0' AND duration > 0"
+user_name=$(mysql --skip-ssl -u $USER -p$PASS -D $DB -h $HOST --silent --skip-column-names -e "$Query")
+
+# Check result
+if [ "$user_name" != '' ] && [ "$user_name" = "$username" ]; then
+    echo "user : $username"
+    echo 'authentication ok.'
+    exit 0
+else
+    echo 'authentication failed.'
+    exit 1
+fi
